@@ -1,9 +1,0 @@
-<settings>
-	<category label="Jizzplanet Settings">
-		<setting type="lsep" label="Resolver" />
-		<setting label="URL Resolver settings" type="action" option="close" action="RunPlugin(plugin://plugin.video.jizzplanet/?action=urlresolverSettings)" />
-		<setting type="lsep" label="Cache" />
-		<setting label="Clear Cache" type="action" action="RunPlugin(plugin://plugin.video.jizzplanet/?action=clearCache)" />
-	</category>
-</settings>
-
