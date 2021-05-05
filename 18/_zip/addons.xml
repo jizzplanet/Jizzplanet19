@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.jizzplanet" name="Jizz Planet" version="2.3.0" provider-name="Jizzplanet.com">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.resolveurl" version="5.0.00" />
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Jizz Planet</summary>
+		<description lang="en">Unofficial A-Z Adult Addon by Jizzplanet.com.</description>
+		<news>Version2</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
+<addon id="repository.jizzplanet" name="Jizzplanet Repo" provider-name="Jizzplanet.com" version="3.0.1">
+	<extension point="xbmc.addon.repository" name="Jizzplanet.com" >
+			<dir minversion="16.0.0" maxversion="18.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/jizzplanet/Jizzplanet19/main/18/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jizzplanet/Jizzplanet19/main/18/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jizzplanet/Jizzplanet19/main/18/_zip</datadir>
+			</dir>
+			<dir minversion="18.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/jizzplanet/Jizzplanet19/main/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jizzplanet/Jizzplanet19/main/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jizzplanet/Jizzplanet19/main/_zip</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Jizz Planet</summary>
+		<description lang="en">Unofficial A-Z Adult Addon by Jizzplanet.com.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+</addons>
